@@ -16,7 +16,7 @@ public class ControllerC {
     @CrossOrigin
     @PostMapping("/api/hello-world")
     @ResponseBody
-    public Greeting sayHello(@RequestBody String body, @RequestParam(name="name", required=false, defaultValue="Stranger") String name) {
+    public Greeting sayHello(@RequestBody(required = false) String body, @RequestParam(name="name", required=false, defaultValue="Stranger") String name) {
         return new Greeting(counter.incrementAndGet(), String.format(template, name));
     }
 
