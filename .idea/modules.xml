@@ -8,6 +8,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/easy-help-backend_test.iml" filepath="$PROJECT_DIR$/.idea/modules/easy-help-backend_test.iml" group="easy-help-backend" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/easy-help_main.iml" filepath="$PROJECT_DIR$/.idea/modules/easy-help_main.iml" group="easy-help" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/easy-help_test.iml" filepath="$PROJECT_DIR$/.idea/modules/easy-help_test.iml" group="easy-help" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/licenta-easy-help-backend.iml" filepath="$PROJECT_DIR$/.idea/modules/licenta-easy-help-backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/licenta-easy-help-backend_main.iml" filepath="$PROJECT_DIR$/.idea/modules/licenta-easy-help-backend_main.iml" group="easy-help-backend" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/licenta-easy-help-backend_test.iml" filepath="$PROJECT_DIR$/.idea/modules/licenta-easy-help-backend_test.iml" group="easy-help-backend" />
     </modules>
   </component>
 </project>
