@@ -5,6 +5,8 @@ import java.util.concurrent.atomic.AtomicLong;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpServletResponse;
+
 @Controller
 public class ControllerC {
 
@@ -18,4 +20,8 @@ public class ControllerC {
         return new Greeting(counter.incrementAndGet(), String.format(template, name));
     }
 
+    @ModelAttribute
+    public void setVaryResponseHeaders(HttpServletResponse response) {
+        response.setHeader("Access-Control-Allow-Credentials", "true");
+    }
 }
