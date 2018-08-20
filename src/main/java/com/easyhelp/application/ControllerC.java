@@ -11,7 +11,8 @@ public class ControllerC {
     private static final String template = "Hello, %s!";
     private final AtomicLong counter = new AtomicLong();
 
-    @PostMapping("/hello-world")
+    @CrossOrigin
+    @PostMapping("/api/hello-world")
     @ResponseBody
     public Greeting sayHello(@RequestBody String body, @RequestParam(name="name", required=false, defaultValue="Stranger") String name) {
         return new Greeting(counter.incrementAndGet(), String.format(template, name));
