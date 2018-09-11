@@ -1,9 +1,13 @@
 package com.easyhelp.application.model;
 
+import lombok.Getter;
+
 import javax.persistence.*;
+import java.io.Serializable;
 
 @Entity
-public class Doctor {
+@Getter
+public class Doctor implements Serializable {
 
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
