@@ -1,6 +1,6 @@
 package com.easyhelp.application.controller;
 
-import com.easyhelp.application.model.Doctor;
+import com.easyhelp.application.model.users.Doctor;
 import com.easyhelp.application.server.ServerResponse;
 import com.easyhelp.application.service.DoctorServiceInterface;
 import org.springframework.beans.factory.annotation.Autowired;

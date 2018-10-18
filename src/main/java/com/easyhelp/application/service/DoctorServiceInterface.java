@@ -1,6 +1,6 @@
 package com.easyhelp.application.service;
 
-import com.easyhelp.application.model.Doctor;
+import com.easyhelp.application.model.users.Doctor;
 
 import java.util.List;
 
